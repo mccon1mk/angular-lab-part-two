@@ -1,0 +1,98 @@
+div {
+  background-color: white;
+  /* box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75); */
+  padding-bottom: 5px;
+  width: 70%;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.box {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+ol li {
+  box-shadow: none;
+}
+
+.filter {
+  margin-left: 10px;
+  width: 90%;
+  text-align: left;
+  font-size: large;
+  box-shadow: none;
+}
+
+h1 {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+}
+
+p {
+  padding-left: 10px;
+  padding-top: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  margin-top: 0;
+  box-shadow: none;
+}
+
+
+.completed {
+  text-decoration: line-through;
+  box-shadow: none;
+}
+
+.completeButton {
+  color: #ff1493;
+  border: 1px solid #ff1493;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.addTask {
+  margin: 10px;
+  width: 90%;
+  font-size: large;
+}
+
+.addButton {
+  background-color: #ff1493;
+  color: white;
+  width: 90%;
+  text-align: center;
+  border-radius: 8px;
+  font-size: large;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 10px;
+}
+
+/* ol li:hover {
+  background-color: #eee;
+} */
+
+.close {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.close:hover {
+  color: red;
+}
+
+#completeSection {
+  background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-shadow: none;
+}
+
+section {
+  display: flex;
+  box-shadow: none;
+}
+
+.x-right {
+  float: right;
+}
